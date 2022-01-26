@@ -1,0 +1,23 @@
+@use '../globals/mixins';
+
+.user-card {
+	@include mixins.CardWrapper;
+
+	& div {
+		display: flex;
+		align-items: center;
+	}
+}
+
+.user-card__avatar {
+	width: 4rem;
+	height: 4rem;
+
+	margin: 0 3rem 0 0;
+
+	border-radius: 50%;
+}
+
+.user_card__id {
+	width: 10rem;
+}

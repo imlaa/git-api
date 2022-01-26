@@ -1,0 +1,15 @@
+.user {
+	display: flex;
+	margin: 0 0 1.5rem;
+
+	& img {
+		width: 20rem;
+		height: 20rem;
+
+		margin: 0 3rem 0 0;
+	}
+}
+
+.user__bio {
+	margin: 0 0 3rem;
+}

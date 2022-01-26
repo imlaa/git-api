@@ -1,0 +1,7 @@
+@use '../globals/mixins';
+
+.repo-card {
+	@include mixins.CardWrapper;
+	color: var(--black);
+	text-decoration: none;
+}
